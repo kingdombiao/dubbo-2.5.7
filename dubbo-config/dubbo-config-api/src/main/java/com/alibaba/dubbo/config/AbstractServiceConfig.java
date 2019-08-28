@@ -61,6 +61,10 @@ public abstract class AbstractServiceConfig extends AbstractInterfaceConfig {
 
     // 访问日志
     protected String accesslog;
+
+    /**
+     * 注册中心配置数组
+     */
     protected List<ProtocolConfig> protocols;
     // 允许执行请求数
     private Integer executes;
