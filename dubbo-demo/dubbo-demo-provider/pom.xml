@@ -83,6 +83,16 @@
             <version>2.5.7</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-container-spring</artifactId>
+            <version>2.5.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-container-log4j</artifactId>
+            <version>2.5.7</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

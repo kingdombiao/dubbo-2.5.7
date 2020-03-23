@@ -15,11 +15,11 @@ import java.io.IOException;
 public class Provider {
 
     public static void main(String[] args) throws Exception {
-       /* ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"META-INF/spring/dubbo-demo-provider.xml"});
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"META-INF/spring/dubbo-demo-provider.xml"});
         context.start();
 
-        System.in.read(); // 按任意键退出*/
-        initDubbo();
+        System.in.read(); // 按任意键退出
+        //initDubbo();
 
     }
 
